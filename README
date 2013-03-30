@@ -1,0 +1,47 @@
+Tach,
+
+dies ist nur ein kleines Ruby-Skript, dass die Datei "liste"
+einliest und in die Standardausgabe ein Bullshit-Bingo-HTML
+generiert, das die Wörter aus der Liste enthält.
+Das hab ich schnell für den Landesparteitag der PIRATEN
+Thüringen 2012.1 zusammengetippt und sollte auch später
+nochmal Verwendung finden. Auf Nachfrage habe ich das mal auf
+GitHub geladen.
+
+Ein paar Hinweise zur eigenen Nutzung:
+
+ - "liste" kann frei editiert werden, ein Wort bzw. Wortgruppe
+   pro Zeile
+
+ - &shy; bedeutet: hier wird, wenn nötig, das Wort mit einem
+   Bindestrich getrennt
+
+ - generate.rb editieren und mindestens folgende Sachen anpassen:
+
+    ThatMany = 150
+    (Zahl gibt an, wieviele Bullshitbingos erzeugt werden sollen)
+
+    <title>Bullshit-Bingo für den ...</title>
+
+    <h1>...</h1>
+
+    Die Regeln: ...
+
+ - unter *nix-artigen Systemen mit installiertem Ruby-Interpreter
+   aufrufen mit:
+
+    ./generate.rb >index.html
+
+ - die index.html im Browser öffnen;
+   Druckvorschau anmachen;
+   schauen, ob alles passt;
+   wenn nicht: Schrift größer oder kleiner regeln
+   bzw. Stylesheets anpassen und von vorn;
+   wenn es passt: drucken!
+
+ - die Bullshit-Bingo-Blätter sind (bisher) für A5 vorgesehen,
+   d.h. die A4-Blätter müssen nochmal zerschnitten werden...
+
+Viel Spaß!
+
+Stephan Beyer <s-beyer at gmx.net>

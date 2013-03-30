@@ -1,0 +1,33 @@
+body {
+	color: black;
+	background-color: white;
+	font-family: "Cambria", sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-variant: small-caps;
+}
+
+table {
+	margin: auto;
+	border-spacing: 3mm;
+}
+
+p {
+	text-align: justify;
+	width: 21cm;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	border: 2pt solid;
+	border-radius: 10px;
+	width: 40mm;
+	height: 25mm;
+	margin: 3mm 3mm;
+	vertical-align: middle;
+	text-align: center;
+	margin: 3mm;
+}
