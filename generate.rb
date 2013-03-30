@@ -30,8 +30,6 @@ EOF
 		puts "   </tr>" if (i % 5 == 4)
 	end
 	puts "  </table>"
-	print <<EOF
-EOF
 end
 
 print <<EOF
